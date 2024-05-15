@@ -4,15 +4,118 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#234681"
+    tools:context=".MainActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="324dp"
+        android:layout_height="483dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFBC36"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/textViewApellidosNombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/textview_apenom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/plainTextApeNom"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/plaintext_apenom"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/textViewApellidosNombres"
+            app:layout_constraintTop_toBottomOf="@+id/textViewApellidosNombres" />
+
+        <TextView
+            android:id="@+id/textViewCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/textviewCorreo"
+            app:layout_constraintStart_toStartOf="@+id/plainTextApeNom"
+            app:layout_constraintTop_toBottomOf="@+id/plainTextApeNom" />
+
+        <TextView
+            android:id="@+id/textViewClave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/textviewClave"
+            app:layout_constraintStart_toStartOf="@+id/plainTextCorreo"
+            app:layout_constraintTop_toBottomOf="@+id/plainTextCorreo" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento:"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="240dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrera"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Por qué medio se enteró de la convocatoria?"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <EditText
+            android:id="@+id/plainTextCorreo"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/plaintextCorreo"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/textViewCorreo"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCorreo" />
+
+        <EditText
+            android:id="@+id/plainTextClave"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/plaintextClave"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/textViewClave"
+            app:layout_constraintTop_toBottomOf="@+id/textViewClave" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="100dp"
+        android:text="EXAMEN DE ADMISIÓN UNTELS 2024"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DAM_AlexiaAsuncion</string>
+    <string name="textview_apenom">Apellidos y nombres</string>
+    <string name="plaintext_apenom" />
+    <string name="textviewCorreo">Correo Electrónico</string>
+    <string name="plaintextCorreo" />
+    <string name="textviewClave">Clave</string>
+    <string name="plaintextClave" />
 </resources>
