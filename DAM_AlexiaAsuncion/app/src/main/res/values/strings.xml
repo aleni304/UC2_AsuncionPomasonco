@@ -3,7 +3,19 @@
     <string name="textview_apenom">Apellidos y nombres</string>
     <string name="plaintext_apenom" />
     <string name="textviewCorreo">Correo Electrónico</string>
-    <string name="plaintextCorreo" />
+    <string name="emailCorreo" />
     <string name="textviewClave">Clave</string>
-    <string name="plaintextClave" />
+    <string name="passwordClave" />
+    <string name="dateFecha" />
+    <string name="textviewCarrera">Carrera</string>
+    <string name="radioButtonSistemas">Ingeniería de Sistemas</string>
+    <string name="radioButtonAmbiental">Ingeniería Ambiental</string>
+    <string name="textviewFechaNac">Fecha de nacimiento</string>
+    <string name="radioButtonMecanica">Ingeniería Mecánica</string>
+    <string name="radioButtonAdministracion">Administración de Empresas</string>
+    <string name="checkboxRadio">Radio</string>
+    <string name="checkboxInternet">Internet</string>
+    <string name="checkboxAmigo">Amigo</string>
+    <string name="checkboxPublicidad">Publicidad</string>
+    <string name="buttonEnviar">Enviar</string>
 </resources>
